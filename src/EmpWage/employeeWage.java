@@ -37,6 +37,6 @@ public class employeeWage {
 			day++;
 			workingDay++;
 		}
-		System.out.println("Wages fot the month is " + Monthlywages);
+		System.out.println("Wages for the month is " + Monthlywages);
 	}
 }
