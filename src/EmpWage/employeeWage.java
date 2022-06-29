@@ -17,7 +17,7 @@ public class employeeWage {
 		int workingDay = 1;
 		int day = 1;
 		int totalWorkingHoursInMonth = 0;
-		while (workingDay <= WorkingHourPerMonth && totalWorkingHoursInMonth <= WorkingHourPerMonth) {
+		while (workingDay <= WorkingDayInMonth && totalWorkingHoursInMonth <= WorkingHourPerMonth) {
 			int attendance = (int) Math.floor(Math.random() * 10) % 3;
 			switch (attendance) {
 			case IsPartTime:
